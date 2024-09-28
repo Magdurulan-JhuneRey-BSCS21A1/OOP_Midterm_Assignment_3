@@ -1,3 +1,4 @@
+using ClassLibrary2;
 namespace TestProject1;
 
 using System;
@@ -52,7 +53,7 @@ public class EncapsulationTests
     public void Withdraw_OtherBanksShouldHaveChargeOfTwentyPesos(int amount, bool isOtherBank)
     {
         // Arrange
-        var initialBalance = 9000;
+        var initialBalance =9000;
         var accountNumber = 12345;
         var penalty = isOtherBank ? 20 : 0;
         BankAccount account = new BankAccount(accountNumber, initialBalance);

@@ -1,4 +1,6 @@
-﻿namespace TestProject1;
+﻿using ClassLibrary1;
+
+namespace TestProject1;
 
 public class ClassRelationshipsTest
 {
